@@ -1,20 +1,4 @@
-![](./ReadMeImages/ReadMeBanner.png)
-# Ayan's Portfolio website [React Project]
 
-**Watch On YouTube ![YouTube Video Views](https://img.shields.io/youtube/views/esC2k9z7w2U?style=social) : [Watch Now][youtubelink]**
-
-**Live Preview: [Open Link][preview]**
-
-
----
-
-### Made with ❤️ by [Shaif Arfan](https://www.instagram.com/shaifarfan08/)
-
-Like my works and want to support me?
-
-<a href="https://www.buymeacoffee.com/shaifarfan08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
-
----
 
 ## Project Details
 
@@ -28,48 +12,3 @@ This is a beginner-friendly react js project. There will be a full free step-by-
 1. JavaScript
 1. React Basic (optional)
 
-## What we are going to Use/learn
-
-- React
-- React Hooks
-- Styled Components
-- Swiper js
-- React Transition Group
-- Smooth Scrollbar
-- React Icons
-- React Router Dom
-- More...
-
-## Starter Files
-
-For the starter files, we created a `branch` in this repository named `starter_files`. You need to change the branch in the top corner of the repo then you will get the starter files and now you can clone the repo or `download` it.
-
-## Getting Started
-
-The recommended way to get started with the project is Follow the [YouTube tutorial][youtubelink]. You will find all the step-by-step guides for free. Or you Can start the project on your own by following the guide below.
-
-After getting the starter files, you need to go the file directory and run
-
-```shell
-npm install
-```
-
-and after that start the live server.
-
-```shell
-npm start
-```
-
-## want to use the website ?
-
-This website is made for educational purposes. Also, this will be free to use. Though a proper credit will be appreciated.
-
-## Other projects
-
-📚 [All Web Cifar Project Tutorials](https://github.com/ShaifArfan/wc-project-tutorials)
-
-# If you like the tutorial, please share this with others.
-
-[preview]: https://ayans-portfolio.netlify.app/
-[youtubelink]: https://www.youtube.com/playlist?list=PLRv_Gd5w9e7mO-lGxKkNSWiAlsiZHnQYY
-[webcifarwebsite]: https://webcifar.com
