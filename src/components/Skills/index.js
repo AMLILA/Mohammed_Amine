@@ -131,8 +131,8 @@ const SkillImage = styled.img`
 
 const Skills = () => {
   return (
-    <Container id="skills">
-      <Wrapper>
+    <Container >
+      <Wrapper id="skills">
         <Title>Bio</Title>
         <Biome><p>M. Amlila Mohammed Amine is an accomplished Electrical Design Engineer at ONEE (National Office of Electricity and Water). With a passion for innovation and a keen eye for detail, he excels in designing and implementing electrical systems that power critical infrastructure.</p> 
         <br /><p>Throughout his career, M. Amlila has demonstrated expertise in creating efficient and reliable electrical designs for a wide range of projects, from power distribution networks to renewable energy installations.</p> 
@@ -165,8 +165,8 @@ const Skills = () => {
 
         </SkillsContainer>
       </Wrapper>
-      <Wrapper>
-        <Title>My Pitch</Title>
+      <Wrapper id="elevator-pitch">
+        <Title>Elevator Pitch</Title>
         <Biome>
          <p>Greetings, I'm Mohammed Amine Amlila, an aspiring data scientist with a fervor for harnessing data-driven insights to tackle real-world complexities. My skill set spans across machine learning, statistical analysis, and data visualization, and I take great pleasure in navigating through extensive datasets to unveil meaningful patterns.</p>  
         <br /><p>I'm eager to become part of a dynamic team where I can apply my data science acumen to address intricate challenges and make substantial contributions to impactful projects, particularly within sectors such as healthcare or sustainability.</p> 

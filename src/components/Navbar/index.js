@@ -25,6 +25,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Bio</NavLink>
+          <NavLink href="#elevator-pitch">Elevator Pitch</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
@@ -41,6 +42,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Bio</MobileLink>
+            <MobileLink href="#elevator-pitch" onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Elevator Pitch</MobileLink>
             <MobileLink href='#experience' onClick={() => {
               setIsOpen(!isOpen)
             }}>Experience</MobileLink>
