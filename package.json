@@ -1,7 +1,7 @@
 {
-  "name": "rishav-chanda-portfolio",
+  "name": "mohammed-amine-portfolio",
   "version": "0.1.0",
-  "homepage": "https://amlila.github.io/Portfolio_AMLILA",
+  "homepage": "https://amlila.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
