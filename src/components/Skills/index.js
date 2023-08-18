@@ -167,13 +167,17 @@ const Skills = () => {
       </Wrapper>
       <Wrapper id="elevator-pitch">
         <Title>Elevator Pitch</Title>
-        <Biome>
+        <VideoContainer >
+        <Video src="https://www.youtube.com/embed/cjANXumOFho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></Video>
+            
+        </VideoContainer>
+        {/*<Biome>
          <p>Greetings, I'm Mohammed Amine Amlila, an aspiring data scientist with a fervor for harnessing data-driven insights to tackle real-world complexities. My skill set spans across machine learning, statistical analysis, and data visualization, and I take great pleasure in navigating through extensive datasets to unveil meaningful patterns.</p>  
         <br /><p>I'm eager to become part of a dynamic team where I can apply my data science acumen to address intricate challenges and make substantial contributions to impactful projects, particularly within sectors such as healthcare or sustainability.</p> 
 
         <br /><p>Let's connect and delve into the possibilities of how I can contribute data-driven solutions to elevate your organization's success.</p> 
 
-        </Biome>
+        </Biome>*/}
        
       </Wrapper>
     </Container>
@@ -181,3 +185,30 @@ const Skills = () => {
 }
 
 export default Skills
+
+export const Videolink = styled.a`
+position:absolute;
+top:20px;
+right:1rem;
+opacity:0.8;
+`
+export const VideoContainer = styled.a`
+
+width:fit-content;
+height:fit-content;
+`
+const Video = styled.iframe`
+margin-top:30px;
+border:none;
+width:800px;
+height:500px;
+@media (max-width: 910px) {
+  width:600px;
+height:400px;
+}
+@media (max-width: 700px) {
+  width:300px;
+height:200px;
+}
+`;
+
